@@ -35,7 +35,13 @@ void trace(uint8_t op, uint8_t a, uint8_t b) {
            reg[0], reg[1], reg[2], reg[3], pc, zf);
 }
 
+void fibonnaci(void){
+
+}
+
 int main() {
+    fibonnaci();
+    
     while (running && pc < 256) {
         uint8_t op, a, b;
         ciclo++;
